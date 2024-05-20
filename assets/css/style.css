@@ -1,0 +1,85 @@
+
+/* .nav {
+    padding: 10px 100px !important;
+} */
+
+body {
+  font-family: montserrat !important;
+}
+
+.remove-bg {
+  mix-blend-mode: screen !important; /* or any other blend mode that suits your image */
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+  z-index: 1000; /* Ensure it's above other content */
+  background-color: transparent; /* Default transparent background */
+  /* Add other styles as needed */
+}
+
+.nav.scrolled {
+  backdrop-filter: blur(8px);
+  background-color: #937372 ;
+}
+
+.nav.text-black {
+  color: white;
+}
+
+
+@keyframes left-to-right {
+  from {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes right-to-left {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Custom animation */
+.animate-left-to-right {
+  animation: left-to-right 1s ease-out forwards;
+}
+
+.animate-right-to-left {
+  animation: right-to-left 1s ease-out forwards;
+}
+
+
+/* // */
+ .name {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  margin: 0 0 0 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 120px;
+}
+
+.status {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+

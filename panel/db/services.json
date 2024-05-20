@@ -1,0 +1,42 @@
+[
+    {
+        "id": 6591991324,
+        "title": "Cardamom",
+        "details": "Experience the warmth and exotic essence of cardamom with every sip of our Cardamom Instant Tea Premix. Sourced from the finest cardamom pods, this blend offers a perfect balance of fragrant spice and soothing tea. Let the aromatic notes uplift your senses and transport you to a serene oasis with each comforting cup.",
+        "keywords" : "cardamom, chai masala, instant tea mix, chai tea bags, readymade tea pouch, masala chai tea bags, ready to drink tea, best tea powder in india, instant tea premix sachets, instant tea packets, masala tea powder, tea bags online, tea sachet bags, best tea powder, tea india masala chai, tea pouch",
+        "description" : "Explore our wide range of authentic Indian chai products, including cardamom chai masala, instant tea mixes, chai tea bags, readymade tea pouches, masala chai tea bags, ready-to-drink teas, the best tea powders in India, instant tea premix sachets, instant tea packets, masala tea powders, and tea bags available online. Discover the perfect tea sachet bags and tea pouches for your masala chai cravings.",
+        "image": "./assets/img/products/cardamom.png",
+        "image_2": "./assets/img/products/cardamom_back.jpg"
+    },
+    {
+        "id": 7377928716,
+        "title": "Masala",
+        "price": "40",
+        "details": " Experience the rich tapestry of Indian spices with our Masala Instant Tea Premix. Infused with a harmonious blend of aromatic spices such as cinnamon, cloves, and cardamom, this tea delivers a burst of flavor with every sip. Let the enchanting aroma and bold taste of masala transport you to the bustling streets of India, all in the convenience of a single cup.",
+        "keywords" : "masala tea, masala instant tea powder, masala tea premix, instant masala tea, wagh bakri tea, spiced tea mix, chai masala powder, Indian tea blends, milk tea premix",
+        "description" : "Discover the rich and aromatic flavors of traditional Indian masala tea with our selection of convenient premixes and powders. From classic masala instant tea powders to premium blends like Wagh Bakri, our masala tea premixes make it easy to enjoy an authentic chai experience anytime.",
+        "image": "./assets/img/products/masala.png" ,
+        "image_2": "./assets/img/products/masala_back.jpg"
+    },
+    {
+        "id": 5417907694,
+        "title": "Ginger",
+        "price": "40",
+        "details": "Embrace the invigorating warmth of ginger with our Ginger Instant Tea Premix. Crafted with the finest ginger extracts and high-quality tea leaves, this blend offers a tantalizing balance of spiciness and sweetness. Sip on the revitalizing essence of ginger while enjoying the convenience of instant preparation, anytime, anywhere.",
+        "keywords" : "ginger instant chai packets, instant masala tea, ginger tea packets, instant ginger tea, chai tea premix, masala chai mix, spiced tea powder, ginger drink mix",
+        "description" : "Explore our range of convenient instant ginger tea and chai packets, perfect for enjoying the warm, spicy flavors of masala tea anytime. From traditional chai premixes to zesty ginger tea blends, our flavorful powders make it easy to indulge in these invigorating beverages instantly.",
+        "image": "./assets/img/products/ginger.png",
+        "image_2": "./assets/img/products/ginger_back.jpg"
+    },
+    {
+        "id": 2547996622,
+        "title": "Coffee",
+        "price": "100",
+        "details": "For those moments when you crave the robust flavor of coffee but long for the comfort of tea, there's our Coffee Instant Tea Premix. Combining the best of both worlds, this unique blend features the rich, intense taste of coffee infused with the subtle notes of tea. Whether you're a coffee aficionado or a tea enthusiast, our Coffee Instant Tea offers a delightful fusion that's sure to satisfy your cravings.",
+        "keywords" : "instant coffee powder, continental coffee powder, coffee premix, vending machine coffee, organic instant coffee, cold coffee powder, sukku coffee, soluble coffee, coffee powder, instant coffee mix",
+        "description" : "Discover a wide range of convenient and flavorful instant coffee powders perfect for busy mornings or on-the-go enjoyment. From classic options to organic and specialty blends like sukku coffee, our selection caters to every coffee lover's taste. Shop premixes for vending machines, cold brew powders, and more.",
+        "image": "./assets/img/products/coffee.png",
+        "image_2": "./assets/img/products/coffee_back.jpg"
+    }
+   
+]

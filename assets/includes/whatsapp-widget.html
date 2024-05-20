@@ -1,0 +1,41 @@
+<div
+        id="whatsapp-widget"
+        class="w-[350px] rounded-lg bg-green-300 absolute top-20 right-20 transition-all duration-300 ease-in-out"
+        style="background-color: #e3dad3; object-fit: cover; z-index: 999; display: none"
+      >
+        <div class="w-full h-[60px] bg-[#0A5F54] flex items-center gap-2 p-3" style="border-radius: 8px 8px 0px 0px">
+          <div class="w-[40px] h-[40px] rounded-full bg-white flex items-center justify-center overflow-hidden">
+            <img src="./assets/logo/Prev/Optimus_tea_Logo-02_Mockup_sq.jpg" class="object-fit-cover" alt="whatsapp-dp" />
+          </div>
+          <div class="flex flex-col leading-[1.1]">
+            <h4 class="text-[20px]" style="font-weight: 400">Optimus Tea</h4>
+            <p class="text-[12px] text-[#C4C9C8]">Welcome to our shop !</p>
+            <button onclick="removeMsgContainer()" class="absolute transition translate duration-300 ease-in-out top-0 right-0 bg-red-300 hover:bg-red-500 px-5" style="border-radius: 0px 8px 0px 8px">
+              <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+          </div>
+        </div>
+        <div class="msg-container px-5 w-full h-[70%]">
+          <p class="text-center text-black py-3 font-[500]">Today</p>
+          <div class="msg-box w-[90%] bg-white h-[80px] rounded-lg border p-3">
+            <h4 class="text-[20px] text-[#818181] font-bold" style="font-weight: 400">Optimus Tea</h4>
+            <!-- HTML -->
+            <p class="text-[15px] text-[#000] animate-left-to-right">Can I help you with tea question!</p>
+          </div>
+          <div class="flex justify-between items-center gap-2 py-3">
+            <input
+              type="text"
+              placeholder="Enter your message"
+              class="w-[85%] outline-none text-black font-[500] text-sm p-2 py-3 rounded-full my-3 border shadow-xl"
+              style="position: relative; z-index: 1000"
+            />
+            <a class="w-[45px] h-[45px] rounded-full bg-[#128C7F] flex items-center justify-center">
+              <!-- <img src="https://cdn-icons-png.flaticon.com/256/60/60525.png" class="w-[20px]" alt="send-icon"> -->
+              <i class="fa-solid fa-paper-plane"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="wp-icon" onclick="iconPress()" class="w-[60px] h-[60px] cursor-pointer rounded-full fixed bottom-10 right-10 bg-[#03BB31] z-[99999] flex justify-center items-center text-[40px]">
+        <i class="fa-brands fa-whatsapp"></i>
+      </div>
